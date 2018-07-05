@@ -1,6 +1,5 @@
 {
     "name": "New New Tab",
-    "short-name": "New New Tab",
     "description": "Lets you modify/redesign the Chrome's default newtab/startup page",
     "version": "1.0",
     "manifest_version": 2,
@@ -23,7 +22,7 @@
     "content_scripts": [{
         "css": ["tweak_tab.css"],
         "js": ["tweak_tab_js.js"],
-        "matches": ["https://www.google.com/_/chrome/newtab"]
+        "matches":["https://*/chrome/newtab"]
 }]
 
 }
